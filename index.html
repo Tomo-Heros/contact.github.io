@@ -1,51 +1,45 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>お問い合わせフォーム</title>
-<link rel="stylesheet" href="stylesheet3.css">
-<script type="text/javascript" src="contact.js"></script>
-</head>
-<body style="background-color: white;">
-<header>
-        <div class="container">
-          <div class="header-left">
-            <a href="https://tomo-heros.github.io/">Tomcats</a>
-          </div>
-          <div class="header-right">
-            <a href="https://tomo-heros.github.io/contact.github.io/" class="contact">問い合わせ</a>
-            <a href="https://tomo-heros.github.io/member.github.io/" class="member">メンバー一覧</a>
-            <a href="https://tomo-heros.github.io/intro.github.io/" class="team">チーム紹介</a>
-          </div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>対戦成績</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet3.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="https://tomo-heros.github.io/">Tomcats</a>
         </div>
-</header>
-<div><h2></h2></div>
-<div>
-    <div class="Form">
-        <div class="Form-Item">
-        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
-        <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+        <div class="header-right">
+          <a href="https://tomo-heros.github.io/contact.github.io/" class="contact">対戦成績</a>
+          <a href="https://tomo-heros.github.io/member.github.io/" class="member">メンバー一覧</a>
+          <a href="https://tomo-heros.github.io/intro.github.io/" class="team">チーム紹介</a>
         </div>
-        <div class="Form-Item">
-        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
-        <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h2 style="color: black; margin-top: 50px; margin-bottom: 0px; padding-left: 200px;">〜試合結果〜</h2>
+        <div class="contents">
+            <table class="members" style="color: black; margin-top: 0px; padding-top: 0px; " border="1"> 
+                <tr> <th> 日時</th> <th> 　　　場所　　　　　　　　</th> <th> 　　　 対戦相手　　　　　　　　　　</th>　<th> 　 結果　　　　</th></tr>
+                <tr> <td> 2021/08/29 </td> 　<td>天王洲公園野球場</td><td> ブレーブス</td> <td>　○ 11-3　</td>> </tr>
+                <tr> <td> 2021/09/27 </td> 　<td>潮見グラウンド</td><td>レインボーオクトパス</td>　<td>　× 1-4　</td>></tr>
+                <tr> <td> 2020/10/31 </td> 　<td>隅田川野球場</td><td> アストロズ </td>　<td>　○ 7-8　</td> </tr>
+                <tr> <td> 2021/05/30 </td> 　<td>夢の島</td><td> レイダース </td> <td>　○ 6-3　</td> </tr>
+                <tr> <td> 2021/06/25 </td> 　<td>多摩川緑地野球場</td><td> バミューダズ </td>　<td>　× 5-8　</td>></tr>
+                <tr> <td> 2021/07/31 </td> 　<td>舎人公園野球場</td><td> TLB </td> <td>　× 1-4　</td></tr>
+            </table>
         </div>
-        <div class="Form-Item">
-        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-        <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
-        </div>
-        <div class="Form-Item">
-        <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
-        <textarea class="Form-Item-Textarea" placeholder="例）試合申し込みなど"></textarea>
-        </div>
-        <input type="submit" class="Form-Btn" value="送信する">
-        </div>
-</div>
-<footer>
-    <div class="container">
-      <p1>Tomcats</p1>
-      <p2>問い合わせ先：tomo1115.sbc@gmail.com</p2>
+      </div>
     </div>
-  </footer>
-</body>
+    <footer>
+      <div class="container">
+        <p1>Tomcats</p1>
+        <p2>問い合わせ先：tomo1115.sbc@gmail.com</p2>
+      </div>
+    </footer>
+  </body>
 </html>
